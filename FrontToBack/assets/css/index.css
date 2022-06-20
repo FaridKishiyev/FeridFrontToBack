@@ -1,0 +1,278 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #22395d;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-item-1, .navbar .navbar-item-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-item-1 li, .navbar .navbar-item-2 li {
+  list-style: none;
+}
+
+.navbar .navbar-item-1 li a, .navbar .navbar-item-2 li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.navbar .navbar-logo {
+  background-color: #009cff;
+  min-height: 56px;
+}
+
+#slider img {
+  max-height: 100vh;
+}
+
+#about-us {
+  margin: 70px 0px;
+}
+
+#about-us .about-content, #about-us img {
+  max-height: 50vh;
+}
+
+#about-us .col-8 {
+  padding: 50px 20px;
+}
+
+#about-us .col-8 h5 {
+  color: #009CFF;
+  font-weight: 400;
+}
+
+#about-us .col-8 .headtext {
+  font-size: 60px;
+  color: #009CFF;
+  font-weight: bold;
+}
+
+#about-us .col-8 .headtext span {
+  color: #22395d;
+}
+
+#about-us .col-8 .contenttext {
+  color: #818491;
+  font-size: 18px;
+}
+
+#about-us .col-8 .btn {
+  padding: 15px 30px;
+}
+
+#services {
+  margin: 70px 0px;
+}
+
+#services .services-head {
+  text-align: center;
+}
+
+#services .services-head h1 {
+  color: #22395d;
+}
+
+#services .services-head h5 {
+  color: #009CFF;
+}
+
+#services .services-many .col-4 {
+  padding: 30px;
+  text-align: center;
+}
+
+#services .services-many .col-4 img {
+  height: 400px;
+  width: 400px;
+}
+
+#services .services-many .col-4 .name {
+  background-color: #F3F6FF;
+  padding: 20px 0px;
+}
+
+#photogalery {
+  margin: 100px 0px;
+  width: 100%;
+  height: 90vh;
+}
+
+#photogalery .galery-head {
+  padding: 100px;
+  text-align: center;
+}
+
+#photogalery .galery-head h5 {
+  color: #009CFF;
+}
+
+#photogalery .galery-head h1 {
+  color: whitesmoke;
+}
+
+#photogalery .galery-head i {
+  color: #009CFF;
+  background-color: whitesmoke;
+  padding: 15px;
+  font-size: 30px;
+}
+
+#photogalery .galery-area {
+  overflow: hidden;
+}
+
+#photogalery .galery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#team .col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+}
+
+#team .team-content {
+  background-color: #f3f6ff;
+  padding: 30px;
+  text-align: center;
+}
+
+#team .team-content h4 {
+  font-style: italic;
+  color: #818491;
+  font-weight: 200;
+}
+
+#team .team-content p {
+  color: #818491;
+  font-weight: 200;
+}
+
+#team .team-content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#team .team-content .social .icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #009CFF;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #009CFF;
+}
+
+#team .team-content .social .icon:hover {
+  background-color: #009CFF;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#faq {
+  margin: 80px 0px;
+}
+
+#faq i {
+  color: yellowgreen;
+}
+
+#faq .faq-head {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#faq .faq-head span {
+  color: #009CFF;
+}
+
+#faq .faq-head h1 {
+  color: #22395d;
+}
+
+#faq .faq-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#faq .content-left {
+  text-align: end;
+  border-right: 1px solid black;
+  padding: 5px 20px;
+  color: #22395d;
+}
+
+#faq .content-left p {
+  font-size: 20px;
+}
+
+#faq .content-right {
+  padding: 5px 20px;
+  color: #22395d;
+}
+
+#faq .content-right p {
+  font-size: 20px;
+}
+
+#faq .line {
+  margin: 0px 20px;
+  width: 1px;
+  height: 200px;
+  background-color: black;
+}
+
+#faq .button {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#faq .button .btn {
+  font-size: 20px;
+  padding: 15px 30px;
+}
